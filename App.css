@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ************* */
+.top{
+  margin-top: 100px;
+}
+
+/* Reset styles */
+html,body, body * { 
+  box-sizing: border-box; 
+  font-family: 'Open Sans', sans-serif; 
+  margin:0;
+  padding:0;
+  color:inherit;
+  background-color:inherit;
+  /* border:2px solid orange; */
+}
+
+body {
+  background-size:  cover;
+  background-position:center center;
+  
+}
+.container {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+
+.login-register-wrapper {
+    height: 560px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 2em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    color:#ffffff;
+    background: linear-gradient(180deg, rgba(19,38,79,1) 0%, rgba(22,147,198,1) 52%, rgba(255,255,255,0) 82%);
+}
+
+/* Nav buttons */
+.nav-buttons {
+  width: 100%;
+  height: 100px;
+  padding-top: 40px;
+  opacity: 1;
+  margin-bottom: 3em;
+}
+button {
+    font-size: 1.5em;
+    margin-right:1em;
+    border:0px;
+    cursor: pointer;
+ 
+}
+button:focus {
+    outline: 0px;
+}
+button.active {
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1059FF;
+} 
+
+ /* footer: forgot section */
+ .forgot-panel {
+  position: relative;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 24px;
+  border-top: solid 1px rgba(255,255,255,.3);    
+}
+
+  /* form styling */
+  .form-group input {
+      width: 100%;
+      height: 35px;
+      padding-left: 15px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      background: rgba(255,255,255,.5);
+  }
+  .form-group label {
+    text-transform: uppercase;
+  }
+  input.submit {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 1em;
+      text-align: center;
+      color: rgba(255,255,255, 1);
+      padding: 8px 0px;
+      width: 100%;
+      height: 35px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 23px;
+      background-color: rgba(16,89,255, 1);
+  
+  }
+
+  /*Form positioning and animation */
+
+  form#registerform {
+      left:500px;
+      top:-230px;
+      position:relative;
+  }
+
+  .forgot-panel {
+      margin-top:-300px;
+      color:gray;
+  }
+
+  form, .forgot-panel { 
+      position: relative;
+      transition: all .10s ease;
+  }
+  #loginBtn, #registerBtn {
+      transition: all .10s ease;
+
+  }
+
+  
+
+  .welcomePage{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f34d4396-056f-4372-9995-ca3649a79648/d7x8tno-322df203-4a4a-4e81-bb2d-b598f758db62.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjM0ZDQzOTYtMDU2Zi00MzcyLTk5OTUtY2EzNjQ5YTc5NjQ4XC9kN3g4dG5vLTMyMmRmMjAzLTRhNGEtNGU4MS1iYjJkLWI1OThmNzU4ZGI2Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.jGDiM8dF3Q2759nN08vx8TXQaQrrv52RuWfvv3pQ7vs);
+    background-position: center;
+background-repeat: no-repeat;
+/* background-size: cover; */
+background-size: 900px 450px;
+}
+
+  .imageposition{
+    margin-top: 500px;
+  }
+
+
+
+  /* Button */
+  .employee{
+    background-color: white;
+  }
